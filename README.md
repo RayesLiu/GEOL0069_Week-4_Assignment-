@@ -19,11 +19,7 @@ This project focuses on colocating Sentinel-3 (OLCI & SRAL) and Sentinel-2 optic
 
 Using unsupervised learning, the project aims to classify sea ice and leads, enabling automated environmental feature detection. The ultimate goal is to develop a scalable pipeline that fuses multi-sensor satellite data and applies machine learning models to improve sea ice classification and EO applications.
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-  </ol>
-</details>
+
 
 ## Colocating Sentinel-3 OLCI/SRAL and Sentinal-2 Optical Data
 In this section, we explore the integration of Sentinel-3 and Sentinel-2 optical data, leveraging their combined strengths. By aligning data from these two satellite missions, we harness Sentinel-2’s high spatial resolution alongside Sentinel-3’s extensive coverage and colocated altimetry, creating a more comprehensive and detailed view of Earth’s surface.
