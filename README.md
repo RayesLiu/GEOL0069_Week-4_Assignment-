@@ -5,7 +5,7 @@
 <!-- If you saw my page then thank you so much for stopping by!!! -->
 <!-- Since it is my first GitHub page, if there are anything that needs to be improved, please do tell me-->
 <!-- Let's go and finish this :))))))))))))))) -->
-
+What's about this project
 This project focuses on the classification of radar echoes over leads and sea ice using machine learning methodologies. The objective is to generate representative echo profiles, analyze their standard deviations, and assess classification accuracy using a confusion matrix by comparing results with the European Space Agency (ESA) official dataset.
 
 ## Table of Contents
