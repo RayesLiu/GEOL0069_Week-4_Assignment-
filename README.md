@@ -39,7 +39,7 @@ In this step we will co-locate Sentinel III OLCIs and Sentinel II by retrieving 
 
 #### Sentinel II
 <img width="1184" alt="57c01a9d3ade32693594e9912160078" src="https://github.com/user-attachments/assets/50a0acf5-0806-4afa-b8f1-52936c0edd33" />
-With the information from the above two tables, a large amount of data is retrieved, at which point we need to co-locate this metadata and generate a new table
+With the information from the above two tables, a large amount of data is retrieved, at which point we need to co-locate this metadata and generate a new table.
 
 #### Co-locate the metadata
 In this section we use the metadata we have just produced to produce the co-location pair details. The logic of the code is match rows from S2 and S3 OLCI by their geo_footprint.
@@ -53,3 +53,34 @@ This table generates data from five collocated satellites, which contains import
 This image is a visualization of the collocation footprint of the Sentinel II and Sentinel III OLCIs. The blue area is the overlap observation between the two satellites.
 
 #### Proceeding with Sentinel-3 OLCI Download
+Next, we focus on downloading Sentinel-3 OLCI data, following a similar approach to Sentinel-2 to ensure methodological consistency. Using the same filename conversion logic, we adhere to a structured workflow to efficiently retrieve data from the Copernicus Data Space.
+
+##### Sentinel-3 SRAL
+
+Here we can also collocate Sentinel II's Sentinel III OLCI altimetry data. data retrieval is similar to the above steps, we will only need to obtain Sentinel III's SRAL metadata.
+After acquiring the data, collocate it with Sentinel II. we can then get a new visualization of the graph.
+
+![image](https://github.com/user-attachments/assets/1310937f-7f30-4f4a-aa41-36f6680ef23f)
+
+## Unsupervised Learning
+
+This section introduces the practical application of unsupervised learning in machine learning and AI, with a focus on Earth Observation (EO) scenarios. Rather than diving into theoretical details, our goal is to provide clear guidance and effective tools for applying these techniques in real-world classification tasks. Since unsupervised learning excels at recognizing patterns and structuring data without predefined labels, we will explore how these methods can uncover hidden relationships within datasets, enhancing our ability to categorize and analyze environmental features.
+
+### Intro to Unsupervised Learning Methods
+
+#### Introduction to K-means Clustering
+
+K-means clustering is an unsupervised learning algorithm that partitions data into k predefined clusters based on feature similarity (MacQueen et al., 1967). It iteratively assigns data points to the nearest centroid and updates centroids to minimize within-cluster variance.
+
+##### Why K-means?
+Works well for exploratory analysis when data structure is unknown.
+Simple & scalable for large datasets.
+##### Key Components:
+1. Choosing k – The number of clusters.
+2. Centroid Initialization – Initial placement affects results.
+3. Assignment Step – Points assigned to the nearest centroid.
+4. Update Step – Centroids recalculated iteratively.
+
+##### Advantages:
+✔ Efficient and computationally fast.
+✔ Easy to interpret and apply to real-world problems.
